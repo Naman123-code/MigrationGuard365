@@ -1,0 +1,10 @@
+pandas
+numpy
+faker
+rapidfuzz
+pydantic
+sqlalchemy
+pyyaml
+scikit-learn
+psycopg2-binary
+pytest

@@ -1,0 +1,168 @@
+
+
+rules:
+  # CUSTOMER RULES
+
+  - id: V01
+    name: customer_name_required
+    description: Customer name must not be empty
+    entity: customer
+    field: name
+    type: required
+    severity: high
+    action: reject
+    enabled: true
+
+  - id: V02
+    name: customer_tax_id_required
+    description: Customer Tax ID must be present
+    entity: customer
+    field: tax_id
+    type: required
+    severity: high
+    action: needs_review
+    enabled: true
+
+  - id: V03
+    name: customer_email_valid
+    description: Customer email must be valid
+    entity: customer
+    field: email
+    type: email
+    severity: medium
+    action: needs_review
+    enabled: true
+
+  - id: V04
+    name: customer_phone_valid
+    description: Customer phone must contain 7 to 15 digits
+    entity: customer
+    field: phone
+    type: phone
+    severity: low
+    action: needs_review
+    enabled: true
+
+  - id: V05
+    name: customer_country_valid
+    description: Customer country must be a supported country code
+    entity: customer
+    field: country
+    type: country
+    severity: medium
+    action: needs_review
+    enabled: true
+
+  # VENDOR RULES
+
+  - id: V06
+    name: vendor_name_required
+    description: Vendor name must not be empty
+    entity: vendor
+    field: name
+    type: required
+    severity: high
+    action: reject
+    enabled: true
+
+  - id: V07
+    name: vendor_tax_id_required
+    description: Vendor Tax ID must be present
+    entity: vendor
+    field: tax_id
+    type: required
+    severity: high
+    action: needs_review
+    enabled: true
+
+  - id: V08
+    name: vendor_phone_valid
+    description: Vendor phone must contain 7 to 15 digits
+    entity: vendor
+    field: phone
+    type: phone
+    severity: low
+    action: needs_review
+    enabled: true
+
+  - id: V09
+    name: vendor_duplicate
+    description: Vendor must not be a duplicate
+    entity: vendor
+    field: tax_id
+    type: duplicate_vendor
+    severity: high
+    action: needs_review
+    enabled: true
+
+  # INVOICE RULES
+
+  - id: V10
+    name: invoice_references_valid
+    description: Invoice customer and vendor must exist
+    entity: invoice
+    field: customer_legacy_id
+    type: invoice_references
+    severity: high
+    action: reject
+    enabled: true
+
+  - id: V11
+    name: invoice_amount_positive
+    description: Invoice amount must be greater than zero
+    entity: invoice
+    field: amount
+    type: positive_number
+    severity: high
+    action: reject
+    enabled: true
+
+  - id: V12
+    name: invoice_currency_valid
+    description: Invoice currency must be supported
+    entity: invoice
+    field: currency
+    type: currency
+    severity: medium
+    action: needs_review
+    enabled: true
+
+  - id: V13
+    name: invoice_date_valid
+    description: Invoice date must be valid and not in the future
+    entity: invoice
+    field: invoice_date
+    type: date_not_future
+    severity: medium
+    action: needs_review
+    enabled: true
+
+  - id: V14
+    name: invoice_duplicate
+    description: Invoice must not be duplicated
+    entity: invoice
+    field: invoice_number
+    type: duplicate_invoice
+    severity: high
+    action: needs_review
+    enabled: true
+
+  - id: V15
+    name: invoice_amount_outlier
+    description: Invoice amount must not be an extreme outlier
+    entity: invoice
+    field: amount
+    type: amount_outlier
+    severity: medium
+    action: needs_review
+    enabled: true
+
+  - id: V16
+    name: customer_created_date_valid
+    description: Customer creation date must be valid
+    entity: customer
+    field: created_date
+    type: valid_date
+    severity: medium
+    action: needs_review
+    enabled: true

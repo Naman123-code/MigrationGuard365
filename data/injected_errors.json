@@ -1,0 +1,518 @@
+{
+    "customers": [
+        {
+            "record_id": "CUST0221",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "CUST0446",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "CUST0794",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "CUST0654",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "CUST0769",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "CUST0151",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "CUST0461",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "CUST0886",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "CUST0605",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "CUST0810",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "CUST0777",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "CUST0768",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "CUST0144",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "CUST0665",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "CUST0813",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "CUST0310",
+            "field": "email",
+            "error": "invalid_email"
+        },
+        {
+            "record_id": "CUST0406",
+            "field": "email",
+            "error": "invalid_email"
+        },
+        {
+            "record_id": "CUST0251",
+            "field": "email",
+            "error": "invalid_email"
+        },
+        {
+            "record_id": "CUST0146",
+            "field": "email",
+            "error": "invalid_email"
+        },
+        {
+            "record_id": "CUST0017",
+            "field": "email",
+            "error": "invalid_email"
+        },
+        {
+            "record_id": "CUST0923",
+            "field": "email",
+            "error": "invalid_email"
+        },
+        {
+            "record_id": "CUST0233",
+            "field": "email",
+            "error": "invalid_email"
+        },
+        {
+            "record_id": "CUST0926",
+            "field": "email",
+            "error": "invalid_email"
+        },
+        {
+            "record_id": "CUST0450",
+            "field": "email",
+            "error": "invalid_email"
+        },
+        {
+            "record_id": "CUST0259",
+            "field": "email",
+            "error": "invalid_email"
+        },
+        {
+            "record_id": "CUST0499",
+            "field": "created_date",
+            "error": "invalid_date"
+        },
+        {
+            "record_id": "CUST0409",
+            "field": "created_date",
+            "error": "invalid_date"
+        },
+        {
+            "record_id": "CUST0478",
+            "field": "created_date",
+            "error": "invalid_date"
+        },
+        {
+            "record_id": "CUST0730",
+            "field": "created_date",
+            "error": "invalid_date"
+        },
+        {
+            "record_id": "CUST0477",
+            "field": "created_date",
+            "error": "invalid_date"
+        },
+        {
+            "record_id": "CUST0381",
+            "field": "created_date",
+            "error": "invalid_date"
+        },
+        {
+            "record_id": "CUST0904",
+            "field": "created_date",
+            "error": "invalid_date"
+        },
+        {
+            "record_id": "CUST0210",
+            "field": "created_date",
+            "error": "invalid_date"
+        },
+        {
+            "record_id": "CUST0475",
+            "field": "created_date",
+            "error": "invalid_date"
+        },
+        {
+            "record_id": "CUST0134",
+            "field": "created_date",
+            "error": "invalid_date"
+        },
+        {
+            "record_id": "CUST0426",
+            "field": "country",
+            "error": "invalid_country"
+        },
+        {
+            "record_id": "CUST0983",
+            "field": "country",
+            "error": "invalid_country"
+        },
+        {
+            "record_id": "CUST0053",
+            "field": "country",
+            "error": "invalid_country"
+        },
+        {
+            "record_id": "CUST0252",
+            "field": "country",
+            "error": "invalid_country"
+        },
+        {
+            "record_id": "CUST0971",
+            "field": "country",
+            "error": "invalid_country"
+        }
+    ],
+    "vendors": [
+        {
+            "record_id": "VEND0083",
+            "field": "vendor_nm",
+            "error": "duplicate_vendor"
+        },
+        {
+            "record_id": "VEND0060",
+            "field": "vendor_nm",
+            "error": "duplicate_vendor"
+        },
+        {
+            "record_id": "VEND0160",
+            "field": "vendor_nm",
+            "error": "duplicate_vendor"
+        },
+        {
+            "record_id": "VEND0200",
+            "field": "vendor_nm",
+            "error": "duplicate_vendor"
+        },
+        {
+            "record_id": "VEND0036",
+            "field": "vendor_nm",
+            "error": "duplicate_vendor"
+        },
+        {
+            "record_id": "VEND0188",
+            "field": "vendor_nm",
+            "error": "duplicate_vendor"
+        },
+        {
+            "record_id": "VEND0247",
+            "field": "vendor_nm",
+            "error": "duplicate_vendor"
+        },
+        {
+            "record_id": "VEND0206",
+            "field": "vendor_nm",
+            "error": "duplicate_vendor"
+        },
+        {
+            "record_id": "VEND0222",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "VEND0040",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "VEND0151",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "VEND0182",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "VEND0263",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "VEND0283",
+            "field": "tax_no",
+            "error": "missing_tax_id"
+        },
+        {
+            "record_id": "VEND0245",
+            "field": "phone",
+            "error": "invalid_phone"
+        },
+        {
+            "record_id": "VEND0021",
+            "field": "phone",
+            "error": "invalid_phone"
+        },
+        {
+            "record_id": "VEND0246",
+            "field": "phone",
+            "error": "invalid_phone"
+        },
+        {
+            "record_id": "VEND0035",
+            "field": "phone",
+            "error": "invalid_phone"
+        }
+    ],
+    "invoices": [
+        {
+            "record_id": "INV01444",
+            "field": "cust_id",
+            "error": "orphan_customer_reference"
+        },
+        {
+            "record_id": "INV01358",
+            "field": "cust_id",
+            "error": "orphan_customer_reference"
+        },
+        {
+            "record_id": "INV00793",
+            "field": "cust_id",
+            "error": "orphan_customer_reference"
+        },
+        {
+            "record_id": "INV01272",
+            "field": "cust_id",
+            "error": "orphan_customer_reference"
+        },
+        {
+            "record_id": "INV02076",
+            "field": "cust_id",
+            "error": "orphan_customer_reference"
+        },
+        {
+            "record_id": "INV00680",
+            "field": "cust_id",
+            "error": "orphan_customer_reference"
+        },
+        {
+            "record_id": "INV00046",
+            "field": "cust_id",
+            "error": "orphan_customer_reference"
+        },
+        {
+            "record_id": "INV00415",
+            "field": "cust_id",
+            "error": "orphan_customer_reference"
+        },
+        {
+            "record_id": "INV00598",
+            "field": "cust_id",
+            "error": "orphan_customer_reference"
+        },
+        {
+            "record_id": "INV02913",
+            "field": "cust_id",
+            "error": "orphan_customer_reference"
+        },
+        {
+            "record_id": "INV02302",
+            "field": "inv_no",
+            "error": "duplicate_invoice"
+        },
+        {
+            "record_id": "INV01106",
+            "field": "inv_no",
+            "error": "duplicate_invoice"
+        },
+        {
+            "record_id": "INV00247",
+            "field": "inv_no",
+            "error": "duplicate_invoice"
+        },
+        {
+            "record_id": "INV00103",
+            "field": "inv_no",
+            "error": "duplicate_invoice"
+        },
+        {
+            "record_id": "INV02088",
+            "field": "inv_no",
+            "error": "duplicate_invoice"
+        },
+        {
+            "record_id": "INV00897",
+            "field": "inv_no",
+            "error": "duplicate_invoice"
+        },
+        {
+            "record_id": "INV02585",
+            "field": "inv_no",
+            "error": "duplicate_invoice"
+        },
+        {
+            "record_id": "INV02136",
+            "field": "inv_no",
+            "error": "duplicate_invoice"
+        },
+        {
+            "record_id": "INV01522",
+            "field": "inv_no",
+            "error": "duplicate_invoice"
+        },
+        {
+            "record_id": "INV00100",
+            "field": "inv_no",
+            "error": "duplicate_invoice"
+        },
+        {
+            "record_id": "INV01837",
+            "field": "inv_amt",
+            "error": "negative_invoice_amount"
+        },
+        {
+            "record_id": "INV01653",
+            "field": "inv_amt",
+            "error": "negative_invoice_amount"
+        },
+        {
+            "record_id": "INV01369",
+            "field": "inv_amt",
+            "error": "negative_invoice_amount"
+        },
+        {
+            "record_id": "INV02511",
+            "field": "inv_amt",
+            "error": "negative_invoice_amount"
+        },
+        {
+            "record_id": "INV01886",
+            "field": "inv_amt",
+            "error": "negative_invoice_amount"
+        },
+        {
+            "record_id": "INV01422",
+            "field": "inv_amt",
+            "error": "negative_invoice_amount"
+        },
+        {
+            "record_id": "INV02547",
+            "field": "inv_amt",
+            "error": "negative_invoice_amount"
+        },
+        {
+            "record_id": "INV01338",
+            "field": "inv_amt",
+            "error": "negative_invoice_amount"
+        },
+        {
+            "record_id": "INV01168",
+            "field": "inv_dt",
+            "error": "future_invoice_date"
+        },
+        {
+            "record_id": "INV01508",
+            "field": "inv_dt",
+            "error": "future_invoice_date"
+        },
+        {
+            "record_id": "INV00209",
+            "field": "inv_dt",
+            "error": "future_invoice_date"
+        },
+        {
+            "record_id": "INV02118",
+            "field": "inv_dt",
+            "error": "future_invoice_date"
+        },
+        {
+            "record_id": "INV02399",
+            "field": "inv_dt",
+            "error": "future_invoice_date"
+        },
+        {
+            "record_id": "INV00506",
+            "field": "currency",
+            "error": "invalid_currency"
+        },
+        {
+            "record_id": "INV01796",
+            "field": "currency",
+            "error": "invalid_currency"
+        },
+        {
+            "record_id": "INV01997",
+            "field": "currency",
+            "error": "invalid_currency"
+        },
+        {
+            "record_id": "INV01776",
+            "field": "currency",
+            "error": "invalid_currency"
+        },
+        {
+            "record_id": "INV02106",
+            "field": "currency",
+            "error": "invalid_currency"
+        },
+        {
+            "record_id": "INV00149",
+            "field": "inv_amt",
+            "error": "extreme_invoice_amount"
+        },
+        {
+            "record_id": "INV02730",
+            "field": "inv_amt",
+            "error": "extreme_invoice_amount"
+        },
+        {
+            "record_id": "INV02245",
+            "field": "inv_amt",
+            "error": "extreme_invoice_amount"
+        },
+        {
+            "record_id": "INV02985",
+            "field": "inv_amt",
+            "error": "extreme_invoice_amount"
+        },
+        {
+            "record_id": "INV02320",
+            "field": "inv_amt",
+            "error": "extreme_invoice_amount"
+        },
+        {
+            "record_id": "INV02073",
+            "field": "inv_amt",
+            "error": "extreme_invoice_amount"
+        }
+    ]
+}
